@@ -12,8 +12,8 @@ config :comparetest,
 # Configures the endpoint
 config :comparetest, Comparetest.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "zMtTHSYiRtvXLR7kSwDaj9xyc6f6q5MomqHDatDIE/skqYtB8MCX+wHRufS2laUK",
-  render_errors: [view: Comparetest.ErrorView, accepts: ~w(json)],
+  secret_key_base: "yW2xe8pSHtjrQF8Nvw86+ZcKbmaiP4EGpy1J4J3saHUd3y1W7ZPhMLPmI4E73Hf4",
+  render_errors: [view: Comparetest.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Comparetest.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
